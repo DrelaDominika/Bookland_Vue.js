@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1 class="overview">Bookland - let the book talk...</h1>
-        <div class="library">
-            <img width="1200" height="675" src="../assets/library.jpg">
+        <div>
+            <img class="library" width="1200" height="675" src="../assets/library.jpg">
         </div>
         <div>
         <vue-inspirational-quote>
@@ -35,10 +35,12 @@ import VueInspirationalQuote from "vue-inspirational-quote"
     font-size: 40px;
     color: rgb(119, 56, 56);
     font-weight: 550;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.295);
 }
 
 .library{
-    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .quote
@@ -47,6 +49,7 @@ import VueInspirationalQuote from "vue-inspirational-quote"
     background-color:rgba(121, 72, 72, 0.116);
     padding:6px;
     border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
 </style>
