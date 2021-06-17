@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
+    "simple-modal-vue": "^1.0.12",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vuetable-2": "^2.0.0-beta.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -1,4 +1,3 @@
-  
 <template>
     <div class="addBook">
         Add Book
